@@ -1,0 +1,81 @@
+/* src/Signup.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  color: #454545;
+  position: relative;
+}
+
+.backgroundCloud,
+.backgroundCloudReverse {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-image: url('../assets/cloud.png');
+  background-size: cover;
+  z-index: -1;
+}
+
+.backgroundCloud {
+  top: 0;
+}
+
+.backgroundCloudReverse {
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.Judul {
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.formData {
+  width: 320px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  color: #454545;
+}
+
+.buttonStart {
+  width: 330px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #0a8ed9;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  border: none;
+  margin-top: 20px;
+}
+
+.buttonStart:hover {
+  background-color: #53b1e7;
+}
+
+.labelForgotPassword {
+  color: #7a5eb0;
+  font-size: 15px;
+  text-align: right;
+  display: block;
+  margin-bottom: 10px;
+}
